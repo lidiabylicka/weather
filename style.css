@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: brown;
+  font-family: "Orbitron", sans-serif;
+}
+h1,
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  color: goldenrod;
+  font-style: italic;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+hr {
+  margin-top: 3em;
+  color: goldenrod;
+  width: 95%;
+  position: relative;
+}
+.search {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  font-family: "Orbitron", sans-serif;
+}
+input {
+  display: flex;
+  width: max-content;
+  border-radius: 8px;
+  width: 30vw;
+  height: 5vh;
+  font-size: 1em;
+  font-family: "Orbitron", sans-serif;
+}
+.searchNow {
+  background-color: brown;
+  color: goldenrod;
+  font-style: italic;
+  border-radius: 8px;
+  font-family: "Orbitron", sans-serif;
+
+  margin-left: 2%;
+}
+.searchNow:hover {
+  background-color: gold;
+  color: black;
+}
+form {
+  display: flex;
+  flex-direction: row;
+}
+#div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weatherDiv {
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: fit-content;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+#clear {
+  font-weight: 700;
+  border-radius: 10px;
+  width: max-content;
+  height: 6vh;
+  background-color: brown;
+  font-family: "Orbitron", sans-serif;
+}
+#clear:active {
+  background-color: rgb(255, 0, 0);
+}
+#clear:hover {
+  background-color: rgb(255, 0, 0);
+}
+h5,
+h4 {
+  font-weight: 300;
+  font-size: medium;
+}
+/* animating*/
